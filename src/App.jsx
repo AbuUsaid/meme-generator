@@ -1,10 +1,11 @@
-import './App.css';
+import './style.css';
+import Header from './components/Header.jsx';
 
 function App() {
   return (
-    <>
-      <h1>Hello world!</h1>
-    </>
+    <div>
+      <Header />
+    </div>
   );
 }
 
